@@ -2,8 +2,8 @@ using UnityEngine;
 
 public abstract class MonoSingleton<T> : MonoBehaviour where T : MonoSingleton<T>
 {
-    // Berat Navruz: Bu scripte asla dokunmayın!!!
-    
+    // Berat Navruz: Bu scriptte lütfen değişiklik yapmayınız.
+
     private static T _instance;
 
     public static T Instance
